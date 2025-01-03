@@ -229,7 +229,8 @@
         }
 
         context.fillStyle = "#FFF";
-        context.fillText(`WIN: ${win} / LOSE: ${lose}`, 10, canvas.height - 10);
+        context.font = "20px Arial";
+        context.fillText(`YOU: ${win} / AI: ${lose}`, 10, canvas.height - 10);
         context.restore();
       }
 
